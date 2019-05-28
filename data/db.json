@@ -13,7 +13,6 @@
       "description": "All furniture products"
     }
   ],
-
   "products": [
     {
       "_id": 1,
@@ -35,6 +34,24 @@
       "name": "couch",
       "display_name": "Couch",
       "description": "Amazing couch for the whole family."
+    },
+    {
+      "id": "4"
+    },
+    {
+      "id": "10",
+      "category": "electronics",
+      "name": "other",
+      "display_name": "other",
+      "description": "this is the description"
+    },
+    {
+      "_id": "11",
+      "category": "electronics",
+      "name": "other",
+      "display_name": "other",
+      "description": "this is the description",
+      "id": "QUeQQn8"
     }
   ]
 }
