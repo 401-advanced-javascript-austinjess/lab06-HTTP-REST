@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "_id": 1,
+      "name": "electronics",
+      "display_name": "Electronics",
+      "description": "All electronic prodcuts"
+    },
+    {
+      "_id": 2,
+      "name": "furniture",
+      "display_name": "Furniture",
+      "description": "All furniture products"
+    }
+  ],
+
+  "products": [
+    {
+      "_id": 1,
+      "category": "electronics",
+      "name": "laptop",
+      "display_name": "Laptop",
+      "description": "Top of the line laptop."
+    },
+    {
+      "_id": 2,
+      "category": "electronics",
+      "name": "keyboard",
+      "display_name": "Keyboard",
+      "description": "Keyboard that hooks up to laptop/computer."
+    },
+    {
+      "_id": 3,
+      "category": "furniture",
+      "name": "couch",
+      "display_name": "Couch",
+      "description": "Amazing couch for the whole family."
+    }
+  ]
+}

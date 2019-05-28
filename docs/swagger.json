@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Core API",
+    "title": "Simple API",
     "description": "The worlds funnest little API",
     "version": "1.0.0"
   },
@@ -11,6 +11,24 @@
     }
   ],
   "paths": {
+    "/products": {
+      "get": {
+        "description": "Get all products",
+        "responses": {
+          "200": {
+            "description": "Returned a list of products",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/getAll"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {}
+    },
     "/categories": {
       "get": {
         "description": "Get all categories",
@@ -27,26 +45,22 @@
           }
         }
       },
-      "post": {
-      }
+      "post": {}
     },
     "/categories/{id}": {
-      "get": {
-      },
-      "put": {
-      },
-      "delete": {
-      }
+      "put": {},
+      "delete": {}
+    },
+    "/products/{id}": {
+      "put": {},
+      "delete": {}
     }
   },
   "components": {
     "schemas": {
       "getAll": {
         "type": "object",
-        "example": [
-          "{}",
-          "{}"
-        ]
+        "example": ["{}", "{}"]
       }
     }
   }
