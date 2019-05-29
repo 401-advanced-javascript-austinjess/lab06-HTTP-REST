@@ -47,11 +47,11 @@
       },
       "post": {}
     },
-    "/categories/{id}": {
+    "/categories/{_id}": {
       "put": {},
       "delete": {}
     },
-    "/products/{id}": {
+    "/products/{_id}": {
       "put": {},
       "delete": {}
     }
