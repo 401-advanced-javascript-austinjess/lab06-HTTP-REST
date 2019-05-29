@@ -1,0 +1,27 @@
+{
+  "name": "lab06-HTTP-REST",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json-server": "json-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-austinjess/lab06-HTTP-REST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-austinjess/lab06-HTTP-REST/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-austinjess/lab06-HTTP-REST#readme",
+  "dependencies": {
+    "eslint": "^5.16.0"
+  }
+}
